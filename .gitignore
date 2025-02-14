@@ -1,0 +1,13 @@
+.DS_Store
+.Trash/
+*.log
+node_modules/
+.vscode/
+.android/
+.cocoapods/
+.dart-tool/
+.gradle/
+.sdkman/
+.emulator_console_auth_token
+tennis_stages_2_app.zip
+tennis_stages_2_app/

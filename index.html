@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ace Tennis Trainer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Ace Tennis Global Logo" class="logo">
+        <h1 id="title" data-translate="title">Ace Tennis Global</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio" data-translate="inicio">Inicio</a></li>
+                <li><a href="#biografia" data-translate="biografia">Biografía</a></li>
+                <li><a href="#servicios" data-translate="servicios">Servicios</a></li>
+                <li><a href="#tienda" data-translate="tienda">Tienda</a></li>
+                <li><a href="#contacto" data-translate="contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <select id="language-selector">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+        </select>
+    </header>
+    
+    <section id="inicio">
+        <h2 data-translate="mejora">Encuentra tu Entrenador y Equípate para el Tenis</h2>
+        <p id="descripcion" data-translate="descripcion">
+            Este espacio está diseñado para ti, que buscas aprender, mejorar y disfrutar del tenis con un entrenamiento adaptado a tus necesidades. A través de este medio, puedes encontrar un entrenador con experiencia internacional que te guiará en tu progreso, ya sea que estés dando tus primeros golpes o quieras perfeccionar tu técnica y estrategia.
+
+            El tenis es más que un deporte: es una oportunidad para superarte, mantenerte activo y disfrutar cada momento en la cancha. Aquí descubrirás un enfoque personalizado para alcanzar tus objetivos, sin importar tu edad o nivel de juego.
+
+            Además, cuentas con una tienda online donde podrás encontrar productos exclusivos para mejorar tu experiencia en la cancha. Desde equipamiento hasta accesorios esenciales, todo lo que necesitas para potenciar tu juego está aquí.
+
+            Si estás listo para entrenar con pasión, mejorar tu rendimiento y equiparte con lo mejor, este es el medio para comenzar. ¡Bienvenido a tu próximo desafío en la cancha!
+        </p>
+        <img src="images/tennis-training.jpg" alt="Entrenamiento de tenis" class="main-image">
+    </section>
+    
+    <section id="biografia">
+        <h2 data-translate="biografia">Biografía</h2>
+        <p id="biografia_texto" data-translate="biografia_texto"></p>
+        <img src="images/coach-tennis.jpg" alt="Entrenador de tenis" class="main-image">
+    </section>
+    
+    <section id="servicios">
+        <h2 data-translate="servicios">Services</h2>
+        <p data-translate="intro">📍 Clases de tenis adaptadas a tu nivel y objetivos</p>
+    
+        <p>✅ <strong data-translate="clase_individual">Clases individuales personalizadas</strong><br>
+        🔹 <span data-translate="clase_individual_desc">Mejora tu técnica con un entrenamiento adaptado solo para ti.</span></p>
+    
+        <p>✅ <strong data-translate="clase_grupal">Clases grupales (máx. 4 personas)</strong><br>
+        🔹 <span data-translate="clase_grupal_desc">Entrena en un ambiente social y aprende con otros jugadores.</span></p>
+    
+        <p>✅ <strong data-translate="clase_grande">Clases grupales grandes</strong><br>
+        🔹 <span data-translate="clase_grande_desc">Perfecto para quienes disfrutan entrenar en grupo y mejorar juntos.</span></p>
+    
+        <p>✅ <strong data-translate="tecnica">Técnica, táctica y estrategia</strong><br>
+        🔹 <span data-translate="tecnica_desc">Aprende a leer el juego, perfeccionar golpes y desarrollar estrategias ganadoras.</span></p>
+    
+        <p>✅ <strong data-translate="preparacion_fisica">Preparación física especializada para el tenis</strong><br>
+        🔹 <span data-translate="preparacion_fisica_desc">Mejora tu resistencia, fuerza y movilidad en la cancha.</span></p>
+    
+        <p>📅 <strong data-translate="horarios">Horarios:</strong> 
+        <span data-translate="horarios_desc">Clases disponibles en las mañanas.</span></p>
+    
+        <p>📍 <strong data-translate="lugar">Lugar:</strong> 
+        <span data-translate="lugar_desc">A convenir dentro de Hamburgo.</span></p>
+    
+        <div class="imagen-servicios">
+            <img src="images/group-tennis.jpg" alt="Grupo de entrenamiento de tenis">
+        </div>
+    </section>
+    
+    <!-- Selector de idioma -->
+    <select id="language-selector">
+        <option value="es">Español</option>
+        <option value="en">English</option>
+        <option value="de">Deutsch</option>
+    </select>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <section id="tienda">
+        <h2 data-translate="tienda">Tienda</h2>
+        <p data-translate="tienda_desc">Explorá nuestra colección de productos exclusivos para tenis.</p>
+        <div class="shop-button-container">
+            <a href="https://acetennisglobal.myshopify.com/" class="shop-button" target="_blank" data-translate="ir_tienda">🛒 Ir a la Tienda</a>
+        </div>
+        <img src="images/store.jpg" alt="Tienda de artículos de tenis" class="main-image">
+    </section>
+    
+    <section id="contacto">
+        <h2 data-translate="consulta">Consultas</h2>
+        <form id="consulta-form" action="https://formspree.io/f/xldgwajy" method="POST">
+            <label for="nombre" data-translate="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email" data-translate="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje" data-translate="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            
+            <button type="submit" data-translate="enviar">Enviar</button>
+        </form>
+        <p><span data-translate="correo">Contacto:</span> <a href="mailto:acetennistrainer@gmail.com">acetennistrainer@gmail.com</a></p>
+        
+    </section>
+
+    <footer>
+        <p data-translate="derechos">© 2025 Ace Tennis Trainer</p>
+    </footer>
+</body>
+</html>
