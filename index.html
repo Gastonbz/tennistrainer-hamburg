@@ -6,6 +6,40 @@
     <title>Ace Tennis Trainer</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+    <style>
+        section {
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #555;
+        }
+        .hidden {
+            display: none;
+        }
+        footer {
+            background-color: #0a2240;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #ff6600;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            color: #ff4500;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -27,7 +61,7 @@
             <option value="de">Deutsch</option>
         </select>
     </header>
-    
+
     <section id="inicio">
         <h2 data-translate="mejora">Encuentra tu Entrenador y Equípate para el Tenis</h2>
         <p id="descripcion" data-translate="descripcion">
@@ -77,23 +111,6 @@
             <img src="images/group-tennis.jpg" alt="Grupo de entrenamiento de tenis">
         </div>
     </section>
-    
-    <!-- Selector de idioma -->
-    <select id="language-selector">
-        <option value="es">Español</option>
-        <option value="en">English</option>
-        <option value="de">Deutsch</option>
-    </select>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 
     <section id="tienda">
         <h2 data-translate="tienda">Tienda</h2>
@@ -119,11 +136,62 @@
             <button type="submit" data-translate="enviar">Enviar</button>
         </form>
         <p><span data-translate="correo">Contacto:</span> <a href="mailto:acetennistrainer@gmail.com">acetennistrainer@gmail.com</a></p>
-        
     </section>
 
     <footer>
-        <p data-translate="derechos">© 2025 Ace Tennis Trainer</p>
+        <!-- Enlaces para mostrar las políticas -->
+        <p>
+            <a href="javascript:void(0);" onclick="togglePrivacyPolicy()">Política de Privacidad</a> | 
+            <a href="javascript:void(0);" onclick="toggleCopyright()">Derechos de Autor</a>
+        </p>
+
+        <div id="privacy-policy" class="hidden">
+            <h2 id="policy-title" data-translate="policy-title">Política de Privacidad</h2> <!-- Clave: "policy-title" -->
+            <p id="policy-text" data-translate="policy-text"> <!-- Clave: "policy-text" -->
+                Esta política de privacidad describe cómo Ace Tennis Trainer recopila, utiliza y protege la información personal de sus usuarios.
+            </p>
+        
+            <p>
+                <strong id="info-general" data-translate="info-general">Información General:</strong> <!-- Clave: "info-general" -->
+                <span id="info-general-desc" data-translate="info-general-desc"> <!-- Clave: "info-general-desc" -->
+                    Al utilizar nuestro sitio web y servicios, aceptas las prácticas descritas en esta política.
+                </span>
+            </p>
+        
+            <p><strong data-translate="info-collected">Información Recopilada:</strong></p> <!-- Clave: "info-collected" -->
+            <ul>
+                <li data-translate="info-name">Nombre y datos de contacto (email, teléfono, etc.)</li> <!-- Clave: "info-name" -->
+                <li data-translate="info-payment">No recopilamos información de pago; las compras se procesan externamente a través de Shopify.</li> <!-- Clave: "info-payment" -->
+                <li data-translate="info-usage">Datos sobre el uso de nuestro sitio web y servicios</li> <!-- Clave: "info-usage" -->
+            </ul>
+        
+            <p><strong data-translate="info-use">Uso de la Información:</strong></p> <!-- Clave: "info-use" -->
+            <ul>
+                <li data-translate="use-provide">Proveer y gestionar nuestros servicios.</li> <!-- Clave: "use-provide" -->
+                <li data-translate="use-improve">Mejorar la experiencia del usuario.</li> <!-- Clave: "use-improve" -->
+                <li data-translate="use-payments">Redirigir a los usuarios a la tienda online externa (Shopify) para compras y pagos.</li> <!-- Clave: "use-payments" -->
+                <li data-translate="use-communication">Enviar comunicaciones relevantes, promociones y actualizaciones.</li> <!-- Clave: "use-communication" -->
+            </ul>
+        </div>
+        
+        <div id="copyright" class="hidden">
+            <h2 id="copyright-title" data-translate="copyright-title">Derechos de Autor</h2> <!-- Clave: "copyright-title" -->
+            <p id="copyright-text" data-translate="copyright-text">© 2025 Ace Tennis Trainer. Todos los derechos reservados.</p> <!-- Clave: "copyright-text" -->
+        </div>
+        
     </footer>
+
+    <script>
+        // Funciones para mostrar y ocultar las políticas
+        function togglePrivacyPolicy() {
+            const privacyPolicy = document.getElementById('privacy-policy');
+            privacyPolicy.classList.toggle('hidden');
+        }
+
+        function toggleCopyright() {
+            const copyright = document.getElementById('copyright');
+            copyright.classList.toggle('hidden');
+        }
+    </script>
 </body>
 </html>
