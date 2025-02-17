@@ -34,7 +34,22 @@ const translations = {
         tienda: "Tienda",
         tienda_desc: "Explorá nuestra colección de productos exclusivos para tenis.",
         ir_tienda: "Ir a la Tienda",
-        servicios_desc: "📍 Clases de tenis adaptadas a tu nivel y objetivos\n\n✅ Clases individuales personalizadas\n🔹 Mejora tu técnica con un entrenamiento adaptado solo para ti.\n\n✅ Clases grupales (máx. 4 personas)\n🔹 Entrena en un ambiente social y aprende con otros jugadores.\n\n✅ Clases grupales grandes\n🔹 Perfecto para quienes disfrutan entrenar en grupo y mejorar juntos.\n\n✅ Técnica, táctica y estrategia\n🔹 Aprende a leer el juego, perfeccionar golpes y desarrollar estrategias ganadoras.\n\n✅ Preparación física especializada para el tenis\n🔹 Mejora tu resistencia, fuerza y movilidad en la cancha.\n\n📅 Horarios: Clases disponibles en las mañanas.\n📍 Lugar: A convenir dentro de Hamburgo."
+        servicios_desc: "📍 Clases de tenis adaptadas a tu nivel y objetivos\n\n✅ Clases individuales personalizadas\n🔹 Mejora tu técnica con un entrenamiento adaptado solo para ti.\n\n✅ Clases grupales (máx. 4 personas)\n🔹 Entrena en un ambiente social y aprende con otros jugadores.\n\n✅ Clases grupales grandes\n🔹 Perfecto para quienes disfrutan entrenar en grupo y mejorar juntos.\n\n✅ Técnica, táctica y estrategia\n🔹 Aprende a leer el juego, perfeccionar golpes y desarrollar estrategias ganadoras.\n\n✅ Preparación física especializada para el tenis\n🔹 Mejora tu resistencia, fuerza y movilidad en la cancha.\n\n📅 Horarios: Clases disponibles en las mañanas.\n📍 Lugar: A convenir dentro de Hamburgo.",
+        "policy-title": "Política de Privacidad",
+        "policy-text": "Esta política de privacidad describe cómo Ace Tennis Trainer recopila, utiliza y protege la información personal de sus usuarios.",
+        "info-general": "Información General:",
+        "info-general-desc": "Al utilizar nuestro sitio web y servicios, aceptas las prácticas descritas en esta política.",
+        "info-collected": "Información Recopilada:",
+        "info-name": "Nombre y datos de contacto (email, teléfono, etc.)",
+        "info-payment": "No recopilamos información de pago; las compras se procesan externamente a través de Shopify.",
+        "info-usage": "Datos sobre el uso de nuestro sitio web y servicios",
+        "info-use": "Uso de la Información:",
+        "use-provide": "Proveer y gestionar nuestros servicios.",
+        "use-improve": "Mejorar la experiencia del usuario.",
+        "use-payments": "Redirigir a los usuarios a la tienda online externa (Shopify) para compras y pagos.",
+        "use-communication": "Enviar comunicaciones relevantes, promociones y actualizaciones.",
+        "copyright-title": "Derechos de Autor",
+        "copyright-text": "© 2025 Ace Tennis Trainer. Todos los derechos reservados."
     },
     en: {
         title: "Ace Tennis Trainer",
@@ -71,7 +86,22 @@ const translations = {
         tienda: "Store",
         tienda_desc: "Explore our collection of exclusive tennis products.",
         ir_tienda: "Go to Store",
-        servicios_desc: "📍 Tennis lessons tailored to your level and goals\n\n✅ Personalized one-on-one lessons\n🔹 Improve your technique with training designed specifically for you.\n\n✅ Small group lessons (up to 4 people)\n🔹 Train in a social environment and learn with other players.\n\n✅ Large group lessons\n🔹 Perfect for those who enjoy group training and improving together.\n\n✅ Technique, tactics, and strategy training\n🔹 Learn to read the game, perfect your shots, and develop winning strategies.\n\n✅ Physical training specialized for tennis\n🔹 Improve your endurance, strength, and mobility on the court.\n\n📅 Schedule: Classes available in the mornings.\n📍 Location: To be arranged within Hamburg."
+        servicios_desc: "📍 Tennis lessons tailored to your level and goals\n\n✅ Personalized one-on-one lessons\n🔹 Improve your technique with training designed specifically for you.\n\n✅ Small group lessons (up to 4 people)\n🔹 Train in a social environment and learn with other players.\n\n✅ Large group lessons\n🔹 Perfect for those who enjoy group training and improving together.\n\n✅ Technique, tactics, and strategy training\n🔹 Learn to read the game, perfect your shots, and develop winning strategies.\n\n✅ Physical training specialized for tennis\n🔹 Improve your endurance, strength, and mobility on the court.\n\n📅 Schedule: Classes available in the mornings.\n📍 Location: To be arranged within Hamburg.",
+        "policy-title": "Privacy Policy",
+        "policy-text": "This privacy policy describes how Ace Tennis Trainer collects, uses, and protects user personal information.",
+        "info-general": "General Information:",
+        "info-general-desc": "By using our website and services, you accept the practices described in this policy.",
+        "info-collected": "Collected Information:",
+        "info-name": "Name and contact details (email, phone, etc.)",
+        "info-payment": "We do not collect payment information; purchases are processed externally through Shopify.",
+        "info-usage": "Data about the use of our website and services",
+        "info-use": "Use of Information:",
+        "use-provide": "Provide and manage our services.",
+        "use-improve": "Improve user experience.",
+        "use-payments":  "Redirect users to the external online store (Shopify) for purchases and payments.",
+        "use-communication": "Send relevant communications, promotions, and updates.",
+        "copyright-title": "Copyright",
+        "copyright-text": "© 2025 Ace Tennis Trainer. All rights reserved."
     },
     de: {
         title: "Ace Tennis Trainer",
@@ -108,7 +138,22 @@ const translations = {
         tienda: "Geschäft",
         tienda_desc: "Entdecken Sie unsere exklusive Tennisproduktkollektion.",
         ir_tienda: "Zum Geschäft",
-        servicios_desc: "📍 Tenniskurse, angepasst an dein Niveau und deine Ziele\n\n✅ Personalisierte Einzelstunden\n🔹 Verbessere deine Technik mit einem auf dich zugeschnittenen Training.\n\n✅ Kleine Gruppenstunden (bis zu 4 Personen)\n🔹 Trainiere in einer sozialen Umgebung und lerne mit anderen Spielern.\n\n✅ Große Gruppenstunden\n🔹 Perfekt für diejenigen, die gerne in der Gruppe trainieren und gemeinsam besser werden möchten.\n\n✅ Technik-, Taktik- und Strategietraining\n🔹 Lerne, das Spiel zu lesen, Schläge zu perfektionieren und gewinnende Strategien zu entwickeln.\n\n✅ Spezialisiertes Fitnesstraining für Tennis\n🔹 Verbessere deine Ausdauer, Kraft und Mobilität auf dem Platz.\n\n📅 Stundenplan: Kurse sind am Vormittag verfügbar.\n📍 Ort: Nach Vereinbarung in Hamburg."
+        servicios_desc: "📍 Tenniskurse, angepasst an dein Niveau und deine Ziele\n\n✅ Personalisierte Einzelstunden\n🔹 Verbessere deine Technik mit einem auf dich zugeschnittenen Training.\n\n✅ Kleine Gruppenstunden (bis zu 4 Personen)\n🔹 Trainiere in einer sozialen Umgebung und lerne mit anderen Spielern.\n\n✅ Große Gruppenstunden\n🔹 Perfekt für diejenigen, die gerne in der Gruppe trainieren und gemeinsam besser werden möchten.\n\n✅ Technik-, Taktik- und Strategietraining\n🔹 Lerne, das Spiel zu lesen, Schläge zu perfektionieren und gewinnende Strategien zu entwickeln.\n\n✅ Spezialisiertes Fitnesstraining für Tennis\n🔹 Verbessere deine Ausdauer, Kraft und Mobilität auf dem Platz.\n\n📅 Stundenplan: Kurse sind am Vormittag verfügbar.\n📍 Ort: Nach Vereinbarung in Hamburg.",
+        "policy-title": "Datenschutzrichtlinie",
+        "policy-text": "Diese Datenschutzrichtlinie beschreibt, wie Ace Tennis Trainer personenbezogene Daten seiner Nutzer sammelt, verwendet und schützt.",
+        "info-general": "Allgemeine Informationen:",
+        "info-general-desc": "Durch die Nutzung unserer Website und Dienste akzeptieren Sie die in dieser Richtlinie beschriebenen Praktiken.",
+        "info-collected": "Gesammelte Informationen:",
+        "info-name": "Name und Kontaktdaten (E-Mail, Telefon usw.)",
+        "info-payment": "Wir erfassen keine Zahlungsinformationen; Einkäufe werden extern über Shopify abgewickelt.",
+        "info-usage": "Daten zur Nutzung unserer Website und Dienste",
+        "info-use": "Verwendung der Informationen:",
+        "use-provide": "Bereitstellung und Verwaltung unserer Dienste.",
+        "use-improve": "Verbesserung der Benutzererfahrung.",
+        "use-payments": "Benutzer zum externen Online-Shop (Shopify) für Einkäufe und Zahlungen weiterleiten.",
+        "use-communication": "Relevante Mitteilungen, Werbeaktionen und Updates senden.",
+        "copyright-title": "Urheberrechte",
+        "copyright-text": "© 2025 Ace Tennis Trainer. Alle Rechte vorbehalten."
     }
 };
 
