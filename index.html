@@ -182,16 +182,23 @@
     </footer>
 
     <script>
-        // Funciones para mostrar y ocultar las políticas
-        function togglePrivacyPolicy() {
-            const privacyPolicy = document.getElementById('privacy-policy');
-            privacyPolicy.classList.toggle('hidden');
-        }
+       function togglePrivacyPolicy() {
+    const privacyPolicy = document.getElementById('privacy-policy');
+    privacyPolicy.classList.toggle('hidden');
+    // Forzar la actualización de traducciones al mostrar el elemento
+    if (!privacyPolicy.classList.contains('hidden')) {
+        loadLanguage(getSavedLanguage());
+    }
+}
 
-        function toggleCopyright() {
-            const copyright = document.getElementById('copyright');
-            copyright.classList.toggle('hidden');
-        }
+function toggleCopyright() {
+    const copyright = document.getElementById('copyright');
+    copyright.classList.toggle('hidden');
+    // Forzar la actualización de traducciones al mostrar el elemento
+    if (!copyright.classList.contains('hidden')) {
+        loadLanguage(getSavedLanguage());
+    }
+}
     </script>
 </body>
 </html>
